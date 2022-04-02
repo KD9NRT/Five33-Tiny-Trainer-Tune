@@ -1,0 +1,35 @@
+# master
+set gyro_lowpass2_hz = 325
+set dyn_notch_width_percent = 0
+set dyn_notch_q = 200
+set dyn_lpf_gyro_min_hz = 260
+set dyn_lpf_gyro_max_hz = 650
+set acc_hardware = NONE
+set serialrx_provider = CRSF
+set dshot_idle_value = 700
+set dshot_bidir = ON
+set motor_pwm_protocol = DSHOT300
+set motor_poles = 12
+set yaw_motors_reversed = ON
+set osd_vbat_pos = 2371
+set osd_avg_cell_voltage_pos = 2339
+
+profile 0
+# profile 0
+set dyn_lpf_dterm_min_hz = 91
+set dyn_lpf_dterm_max_hz = 221
+set dterm_lowpass2_hz = 195
+set p_pitch = 51
+set i_pitch = 99
+set d_pitch = 43
+set f_pitch = 105
+set p_roll = 46
+set i_roll = 94
+set d_roll = 40
+set f_roll = 99
+set p_yaw = 50
+set i_yaw = 99
+set f_yaw = 99
+set d_min_roll = 0
+set d_min_pitch = 0
+set idle_min_rpm = 5
